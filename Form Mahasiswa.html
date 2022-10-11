@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;">
+    <div class="wrapper">
+        <h4 style="text-align: center;">FORM BIODATA</h4>
+        <form action="">
+            <table style="width: 100%;">
+                <tbody>
+
+                    <!-- NIM -->
+                    <tr>
+                        <td>
+                            <label for="nim">NIM</label>
+                        </td>
+                        <td>:&ensp;<input type="text" id="nim"></td>
+                    </tr>
+
+                    <!-- NAMA -->
+                    <tr>
+                        <td><label for="nama">NAMA</label></td>
+                        <td>:&ensp;<input type="text" id="nama"></td>
+                    </tr>
+
+                    <!-- JENIS KELAMIN -->
+                    <tr>
+                        <td><label for="jk">JENIS KELAMIN</label></td>
+                        <td>:&ensp;
+                            <input type="radio" id="rbp">
+                            <label for="rbp">Pria</label>
+                            <input type="radio" class="rbw">
+                            <label for="rbw">Wanita</label>
+                        </td>
+                    </tr>
+                    
+                    <!-- JURUSAN -->
+                    <tr>
+                        <td><label for="jurusan">JURUSAN</label></td>
+                        <td>:&ensp;
+                            <select name="jurusan" id="jurusan">
+                                <option value="0">pilih...</option>
+                                <option value="Ilmu Komputer">Ilmu omputer</option>
+                                <option value="Teknologi Informasi">Teknologi Informasi</option>
+                                <option value="RPL">RPL</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <!-- HOBBY -->
+                    <tr>
+                        <td><label for="hobby">HOBBY</label></td>
+                        <td>:&ensp;
+                            <input type="checkbox" name="Komputer" id="komputer">
+                            <label for="komputer">Komputer</label>
+                            <input type="checkbox" name="Musik" id="musik">
+                            <label for="musik">Musik</label>
+                            <input type="checkbox" name="Olahraga" id="olahraga">
+                            <label for="olahraga">Olahraga</label>
+                            <input type="checkbox" name="Travelling" id="travelling">
+                            <label for="travelling">Travelling</label>
+                        </td>
+                    </tr>
+
+                    <!-- CATATAN -->
+                    <tr>
+                        <td style="display:flex; text-align: start;"><label for="catatan">CATATAN</label></td>
+                        <td>&ensp;&ensp;<textarea name="catatan" id="catatan" cols="30" rows="10"></textarea></td>
+                    </tr>
+
+                    <!-- FOTO -->
+                    <tr>
+                        <td><label for="foto">FOTO</label></td>
+                        <td>:&ensp;<input type="file" name="" id=""></td>
+                    </tr>
+
+                    <!-- EMAIL -->
+                    <tr>
+                        <td><label for="email">EMAIL</label></td>
+                        <td>:&ensp;<input type="email" name="" id=""></td>
+                    </tr>
+
+                    <!-- PASSWORD -->
+                    <tr>
+                        <td><label for="password">SANDI LOGIN</label></td>
+                        <td>:&ensp;<input type="password" name="password" id="password"></td>
+                    </tr>
+
+                    <!-- ULANGI PASSWORD -->
+                    <tr>
+                        <td><label for="ulang">ULANGI SANDI LOGIN</label></td>
+                        <td>:&ensp;<input type="password" name="ulangi" id="ulangi"></td>
+                    </tr>
+
+                    <!-- BUTTON -->
+                    <tr>
+                        <td></td>
+                        <td>&ensp;
+                            <input type="button" value="Simpan">
+                            <input type="button" value="Batal">
+                            <input type="button" value="Peringatan">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
